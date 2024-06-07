@@ -2,7 +2,7 @@ package ss2.thuc_hanh;
 
 import java.util.Scanner;
 
-public class Th2_Interest {
+public class Interest {
     public static void main(String[] args) {
         double money = 1.0;
         int month = 1;

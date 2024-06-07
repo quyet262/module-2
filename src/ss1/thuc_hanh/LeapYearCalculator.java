@@ -2,7 +2,7 @@ package ss1.thuc_hanh;
 
 import java.util.Scanner;
 
-public class Th6_LeapYearCalculator {
+public class LeapYearCalculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int year;

@@ -2,7 +2,7 @@ package ss2.thuc_hanh;
 
 import java.util.Scanner;
 
-public class th4_Geometry {
+public class Geometry {
 
     public static void main(String[] args) {
         int choice = -1;

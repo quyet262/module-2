@@ -2,7 +2,7 @@ package ss1.thuc_hanh;
 
 import java.util.Scanner;
 
-public class Th3_Rectangle {
+public class Rectangle {
     public static void main(String[] args) {
         float width;
         float height;

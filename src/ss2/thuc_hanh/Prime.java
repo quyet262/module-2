@@ -2,7 +2,7 @@ package ss2.thuc_hanh;
 
 import java.util.Scanner;
 
-public class Th1_Prime {
+public class Prime {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the number: ");

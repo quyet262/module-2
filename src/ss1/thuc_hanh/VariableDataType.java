@@ -1,6 +1,6 @@
 package ss1.thuc_hanh;
 
-public class Th2_VariableDataType {
+public class VariableDataType {
     public static void main(String[] args) {
         int i = 10;
         float f = 20.5f;

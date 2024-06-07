@@ -2,7 +2,7 @@ package ss1.thuc_hanh;
 
 import java.util.Scanner;
 
-public class Th7_BodyMassIndex {
+public class BodyMassIndex {
     public static void main(String[] args) {
         Scanner scannner = new Scanner(System.in);
         double weight, height, bmi;

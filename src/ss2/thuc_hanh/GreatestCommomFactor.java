@@ -2,7 +2,7 @@ package ss2.thuc_hanh;
 
 import java.util.Scanner;
 
-public class Th3_GreatestCommomFactor {
+public class GreatestCommomFactor {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a: ");
