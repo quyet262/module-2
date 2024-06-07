@@ -4,25 +4,23 @@ import java.util.Scanner;
 
 public class Prime {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter number: ");
-        int n = sc.nextInt();
-        boolean check = true;
-        int i = 2;
-        if (n < 2) {
-            System.out.print("Not Prime number");
-        } else {
-            while (i < n) {
-                if (n % i == 0) {
+
+        int dem = 0;
+        for (int i = 2; dem < 20; i++) {
+            boolean check = true;
+            for (int j = 2; j < i; j++) {
+                if (i % j == 0) {
                     check = false;
                 }
-                i++;
             }
             if (check) {
-                System.out.println("Prime number");
-            } else {
-                System.out.println("Not Prime number");
+                dem++;
+                System.out.print(i + " ");
+                System.out.println();
             }
+
         }
+        System.out.print("số lượng snt là: " + dem );
     }
+
 }
