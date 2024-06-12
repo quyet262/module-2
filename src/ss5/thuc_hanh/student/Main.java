@@ -1,4 +1,4 @@
-package ss5.thuc_hanh.Student;
+package ss5.thuc_hanh.student;
 
 public class Main {
     public static void main(String[] args) {

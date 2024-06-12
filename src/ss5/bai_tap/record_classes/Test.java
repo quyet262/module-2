@@ -1,4 +1,4 @@
-package ss5.bai_tap.RecordClasses;
+package ss5.bai_tap.record_classes;
 
 public class Test {
     public static void main(String[] args) {

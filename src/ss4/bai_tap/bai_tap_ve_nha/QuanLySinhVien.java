@@ -1,4 +1,4 @@
-package ss4.bai_tap.BaiTapVeNha;
+package ss4.bai_tap.bai_tap_ve_nha;
 
 public class QuanLySinhVien {
    protected SinhVien[] quanLySinhVien;

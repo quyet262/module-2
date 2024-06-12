@@ -1,4 +1,4 @@
-package ss4.bai_tap.PhuongTrinhBac2;
+package ss4.bai_tap.phuong_trinh_bac2;
 
 import java.util.Scanner;
 

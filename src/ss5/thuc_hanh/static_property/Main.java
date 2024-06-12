@@ -1,4 +1,4 @@
-package ss5.thuc_hanh.StaticProperty;
+package ss5.thuc_hanh.static_property;
 
 public class Main {
     public static void main(String[] args) {
