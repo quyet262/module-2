@@ -1,4 +1,4 @@
-package ss4.bai_tap;
+package ss4.bai_tap.PhuongTrinhBac2;
 
 public class GiaiPTB2 {
     double a, b, c;

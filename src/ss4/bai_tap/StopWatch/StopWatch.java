@@ -1,4 +1,4 @@
-package ss4.bai_tap.stopWatch;
+package ss4.bai_tap.StopWatch;
 
 public class StopWatch {
     private long startTime;
