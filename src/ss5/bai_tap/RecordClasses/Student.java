@@ -1,4 +1,4 @@
-package ss5.RecordClasses;
+package ss5.bai_tap.RecordClasses;
 
 public class Student {
     private String name = "John";
