@@ -12,7 +12,7 @@ public class QuanLySinhVien {
    }
 
    public void themSinhVien(SinhVien sinhVien) {
-      if (size < limit) {
+      if (size <= limit) {
          quanLySinhVien[size] = sinhVien;
          size++;
          System.out.println("Sinh viên đã được thêm vào danh sách");
