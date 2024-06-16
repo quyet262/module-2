@@ -1,4 +1,4 @@
-package ss7.bai_tap.resizeable.geometric_object;
+package ss7.bai_tap.resizeable;
 
 public class Circle extends Shape implements Resizeable {
     private double radius = 1.0;

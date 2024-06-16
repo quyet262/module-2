@@ -1,4 +1,4 @@
-package ss7.bai_tap.resizeable.geometric_object;
+package ss7.bai_tap.resizeable;
 
 public class Square extends Rectangle implements Resizeable {
     public Square() {

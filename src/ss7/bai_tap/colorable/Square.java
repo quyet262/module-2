@@ -1,7 +1,6 @@
 package ss7.bai_tap.colorable;
 
-import ss7.bai_tap.resizeable.geometric_object.Resizeable;
-import ss7.bai_tap.colorable.Colorable;
+import ss7.bai_tap.resizeable.Resizeable;
 
 public class Square extends Rectangle implements Resizeable, Colorable {
     public Square() {

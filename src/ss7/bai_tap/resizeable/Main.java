@@ -1,6 +1,4 @@
-package ss7.bai_tap.resizeable.geometric_object;
-
-import java.util.Random;
+package ss7.bai_tap.resizeable;
 
 public class Main {
     public static void main(String[] args) {
