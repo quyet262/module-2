@@ -93,8 +93,7 @@ public class Main {
                 case 2:
                     System.out.println("Enter id staff need edit: ");
                     int idEdit = sc.nextInt();
-                    sc.nextLine(); // Loại bỏ ký tự newline thừa
-
+                    sc.nextLine();
                     System.out.println("Enter the name of the staff who needs editing");
                     String nameEdit = sc.nextLine();
 
@@ -128,7 +127,7 @@ public class Main {
                             staffManager.edit(idEdit, nameEdit, phoneNumberEdit, positionEdit);
                         }
                     }
-                    break; // Thêm break để thoát khỏi switch case
+                    break;
                 case 3:
                     System.out.println("Enter id staff need delete: ");
                     int idDelete = sc.nextInt();
