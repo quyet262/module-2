@@ -13,7 +13,7 @@ public class App {
         for (int i = 0; i < size; i++) {
             arr[i] = sc.nextInt();
         }
-        System.out.println("Mảng bạn vua tạo: " + Arrays.toString(arr));
+        System.out.println("Mảng bạn tạo: " + Arrays.toString(arr));
         BubbleSort.bubbleSort(arr);
     }
 }
