@@ -96,12 +96,12 @@ public class Service {
 
     private static void copyFile(File source, File dest) throws IOException {
         if (!source.exists()) {
-            System.out.println("Source file does not exist.");
+            System.out.println("Tệp nguồn không tồn tại.");
             return;
         }
 
         if (dest.exists()) {
-            System.out.println("Destination file already exists. Overwriting...");
+            System.out.println("Tệp đích đã tồn tại. Ghi đè...");
         }
 
         try (InputStream is = new FileInputStream(source);
@@ -113,8 +113,9 @@ public class Service {
             }
         }
 
-        System.out.println("File copied successfully.");
+        System.out.println("Đã sao chép tệp thành công.");
     }
+
 
     private static List<Product> readProductsFromFile() throws IOException {
         List<Product> products = new ArrayList<>();
