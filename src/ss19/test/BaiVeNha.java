@@ -19,7 +19,7 @@ public class BaiVeNha {
 
 //        2. Kiểm tra giờ hợp lệ: HH:MM (HH - giờ, MM phút)
 //        Giờ: từ 00 đến 23 và là số có 2 chữ số
-//            => 0 và 1 đến 9 => [01]?[0-9]
+//            => 0 và 1 đến 9 => [01][0-9]
 //            => 2 có số từ 0 đến 3 => 2[0-3]
 //        Phút: từ 00 đến 59 là số có 2 chữ số
 //            => có 2 số từ 00 đến 59 => [0-5][0-9]
