@@ -12,7 +12,7 @@ public class BaiVeNha {
 //            phần năm: là 4 chữ số => [0-9]{4}
 
         Pattern pattern1 = Pattern.compile("^(0[1-9]|[12][0-9]|3[01])/(0[1-9]|1[0-2])/[0-9]{4}$");
-        Matcher matcher1 = pattern1.matcher("10/10/2013");
+        Matcher matcher1 = pattern1.matcher("01/10/2013");
         boolean isMatch1 = matcher1.matches();
         System.out.println(isMatch1);
 
@@ -24,7 +24,7 @@ public class BaiVeNha {
 //        Phút: từ 00 đến 59 là số có 2 chữ số
 //            => có 2 số từ 00 đến 59 => [0-5][0-9]
 //
-        Pattern pattern2 = Pattern.compile("^([01]?[0-9]|2[0-3]):[0-5][0-9]$");
+        Pattern pattern2 = Pattern.compile("^([01][0-9]|2[0-3]):[0-5][0-9]$");
         Matcher matcher2 = pattern2.matcher("12:00");
         boolean isMatch2 = matcher2.matches();
         System.out.println(isMatch2);
