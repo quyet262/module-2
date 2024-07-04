@@ -1,5 +1,11 @@
 package module2.vehicle_manager;
 
+import module2.vehicle_manager.model.Car;
+import module2.vehicle_manager.model.MotorBike;
+import module2.vehicle_manager.model.Truck;
+import module2.vehicle_manager.model.Vehicle;
+import module2.vehicle_manager.util.ReadAndWrite;
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -81,12 +87,13 @@ public class VehicleManager {
             System.out.println((i + 1) + ". " + manufacturers.get(i));
         }
         int choice = scanner.nextInt();
-        scanner.nextLine(); // Consume newline
+        scanner.nextLine();
         if (choice < 1 || choice > manufacturers.size()) {
             System.out.println("Lựa chọn không hợp lệ, mặc định chọn hãng sản xuất đầu tiên.");
             choice = 1;
         }
-        return manufacturers.get(choice - 1);
+        String [] manufacturer = manufacturers.get(choice-1).split("\\.");
+        return manufacturer[1];
     }
 
     public static void viewVehicles() throws IOException {

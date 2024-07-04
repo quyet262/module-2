@@ -1,4 +1,4 @@
-package module2.vehicle_manager;
+package module2.vehicle_manager.model;
 
 
 public class Car extends Vehicle {

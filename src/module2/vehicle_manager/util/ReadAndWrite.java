@@ -1,4 +1,4 @@
-package module2.vehicle_manager;
+package module2.vehicle_manager.util;
 
 import java.io.*;
 import java.util.ArrayList;
