@@ -14,9 +14,15 @@ public class Car extends Vehicle {
     public int getSeat() {
         return seat;
     }
+    public void setSeat(int seat) {
+        this.seat = seat;
+    }
 
     public String getVehicleType() {
         return vehicleType;
+    }
+    public void setVehicleType(String vehicleType) {
+        this.vehicleType = vehicleType;
     }
 
     @Override

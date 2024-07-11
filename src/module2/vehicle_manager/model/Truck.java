@@ -11,6 +11,9 @@ public class Truck extends Vehicle {
     public int getPayload() {
         return payload;
     }
+    public void setPayload(int payload) {
+        this.payload = payload;
+    }
 
     @Override
     public String getInforToFile() {

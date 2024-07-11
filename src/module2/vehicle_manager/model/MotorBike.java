@@ -13,6 +13,10 @@ public class MotorBike extends Vehicle {
         return wattage;
     }
 
+    public void setWattage(int wattage) {
+        this.wattage = wattage;
+    }
+
     @Override
     public String getInforToFile() {
         return getControlPlate() + "," + getCompany() + "," + getYearCreate() + "," + getOwner() + "," + wattage;
